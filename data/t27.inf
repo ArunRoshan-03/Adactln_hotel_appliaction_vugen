@@ -1,0 +1,13 @@
+[t27]
+FileName1=t27.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/062d61d7-663c-484d-8c52-8ea5ea25207c
+Total=2
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=t27_RequestBody.txt
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_27.xml
+FileName2=t27_ios-button.png
+URL2=https://adactinhotelapp.com/img/ios-button.png
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,67 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_01_launch",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: adactinhotelapp.com",
+                "infFile": "t1.inf",
+                "time": 1692891648788
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_02_login",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: adactinhotelapp.com_2",
+                "infFile": "t3.inf",
+                "time": 1692891655080
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_03_search_hotel",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: SelectHotel.php",
+                "infFile": "t7.inf",
+                "time": 1692891673326
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_04_select_hotel",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: BookHotel.php",
+                "infFile": "t10.inf",
+                "time": 1692891682863
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_05_book_hotel",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: BookingConfirm.php",
+                "infFile": "t11.inf",
+                "time": 1692891691338
+            }
+        ],
+        "transactions": []
+    }
+]

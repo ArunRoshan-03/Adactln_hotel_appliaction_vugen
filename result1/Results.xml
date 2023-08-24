@@ -1,0 +1,406 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="India Standard Time">
+<General productName="Vugen" productVer="2023" os="" host="ATMECSINLT-1311"><DocLocation><![CDATA[C:\Users\arunroshan.r\Documents\VuGen\Scripts\Adactin_Hotel_Application]]></DocLocation></General>
+<Doc rID="T1"   productName= "Vugen"  >
+<DName><![CDATA[Adactin_Hotel_Application]]></DName>
+<Res><![CDATA[result1]]></Res>
+<Action rID="T2">
+<AName><![CDATA[vuser_init]]></AName>
+<Summary sTime="24-Aug-23 - 21:10:34" eTime="24-Aug-23 - 21:10:34" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="5" >
+<Disp><![CDATA[vuser_init Summary]]></Disp>
+</NodeArgs>
+</Action>
+<DIter rID="T3" iterID="1" >
+<Action rID="T4">
+<AName><![CDATA[Action]]></AName>
+<Summary sTime="24-Aug-23 - 21:10:34" eTime="24-Aug-23 - 21:10:34" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T5">
+<AName><![CDATA[TC_01_launch]]></AName>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>SSL_VERSION</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>AUTO</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:10:35]]></Time>
+<TimeTick>1692891635</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="11" >
+<Disp><![CDATA[Service: Set Sockets Option]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Url: adactinhotelapp.com]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:10:48]]></Time>
+<TimeTick>1692891648</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
+<Disp><![CDATA[Url: adactinhotelapp.com]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="24-Aug-23 - 21:10:35" eTime="24-Aug-23 - 21:10:48" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="10" status="Passed" >
+<Disp><![CDATA[TC_01_launch Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T8">
+<AName><![CDATA[TC_02_login]]></AName>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Ex]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>TargetParam = <STRONG><FONT COLOR=#00AF00>C_location</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB/IC="></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB/IC=</option></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ordinal=All</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:10:48]]></Time>
+<TimeTick>1692891648</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="15" >
+<Disp><![CDATA[Service: Reg Save Param Ex]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Welcome to Adactin Group of Hotels</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:10:49]]></Time>
+<TimeTick>1692891649</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="16" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Adactin.com - Hotel Reservation System</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:10:49]]></Time>
+<TimeTick>1692891649</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="17" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Search Hotel</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:10:49]]></Time>
+<TimeTick>1692891649</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="18" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Submit Data: adactinhotelapp.com_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:10:55]]></Time>
+<TimeTick>1692891655</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="19" status="Passed" >
+<Disp><![CDATA[Submit Data: adactinhotelapp.com_2]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="24-Aug-23 - 21:10:48" eTime="24-Aug-23 - 21:11:03" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="14" status="Passed" >
+<Disp><![CDATA[TC_02_login Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T14">
+<AName><![CDATA[TC_03_search_hotel]]></AName>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Ex]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>TargetParam = <STRONG><FONT COLOR=#00AF00>C_price_night</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=type="text"  value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=" class</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ordinal=8</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:05]]></Time>
+<TimeTick>1692891665</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="22" >
+<Disp><![CDATA[Service: Reg Save Param Ex]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Ex]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>TargetParam = <STRONG><FONT COLOR=#00AF00>C_total_price</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=type="text"  value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=" class</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ordinal=9</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:06]]></Time>
+<TimeTick>1692891666</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="23" >
+<Disp><![CDATA[Service: Reg Save Param Ex]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Ex]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>TargetParam = <STRONG><FONT COLOR=#00AF00>C_total_days</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=type="hidden" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=" </FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ordinal=7</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:06]]></Time>
+<TimeTick>1692891666</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="24" >
+<Disp><![CDATA[Service: Reg Save Param Ex]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Search Hotel</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:06]]></Time>
+<TimeTick>1692891666</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="25" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Submit Data: SelectHotel.php]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:13]]></Time>
+<TimeTick>1692891673</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="26" status="Passed" >
+<Disp><![CDATA[Submit Data: SelectHotel.php]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t7.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="24-Aug-23 - 21:11:05" eTime="24-Aug-23 - 21:11:13" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="21" status="Passed" >
+<Disp><![CDATA[TC_03_search_hotel Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T20">
+<AName><![CDATA[TC_04_select_hotel]]></AName>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>15711</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:14]]></Time>
+<TimeTick>1692891674</TimeTick>
+<NodeArgs eType="General" icon="9" nRep="29" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Ex]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>TargetParam = <STRONG><FONT COLOR=#00AF00>C_gst_price</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB/IC=<input name="gst_dis" type="text" class="disable_text" id="gst_dis" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB/IC=" disabled="disabled" /></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Argument omitted</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:14]]></Time>
+<TimeTick>1692891674</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="30" >
+<Disp><![CDATA[Service: Reg Save Param Ex]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Ex]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>TargetParam = <STRONG><FONT COLOR=#00AF00>C_final_price</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB/IC=<input type="text" name="final_price_dis" id="final_price_dis" class="disable_text" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB/IC=" disabled="disabled" /></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Argument omitted</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:14]]></Time>
+<TimeTick>1692891674</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="31" >
+<Disp><![CDATA[Service: Reg Save Param Ex]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Book A Hotel </FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:14]]></Time>
+<TimeTick>1692891674</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="32" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[Submit Data: BookHotel.php]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:22]]></Time>
+<TimeTick>1692891682</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="33" status="Passed" >
+<Disp><![CDATA[Submit Data: BookHotel.php]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t10.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="24-Aug-23 - 21:11:13" eTime="24-Aug-23 - 21:11:22" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="28" status="Passed" >
+<Disp><![CDATA[TC_04_select_hotel Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T26">
+<AName><![CDATA[TC_05_book_hotel]]></AName>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text={C_order_id}</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:23]]></Time>
+<TimeTick>1692891683</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="36" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>C_order_id</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=id="order_no" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:23]]></Time>
+<TimeTick>1692891683</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="37" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Submit Data: BookingConfirm.php]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:31]]></Time>
+<TimeTick>1692891691</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="38" status="Failed" >
+<Disp><![CDATA[Submit Data: BookingConfirm.php]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t11.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24-Aug-23 - 21:11:31]]></Time>
+<TimeTick>1692891691</TimeTick>
+<NodeArgs eType="General" icon="1" nRep="39" status="Failed" >
+<Disp><![CDATA[Script Aborted!]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="24-Aug-23 - 21:11:23" eTime="24-Aug-23 - 21:11:31" passed="0" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="35" status="Failed" >
+<Disp><![CDATA[TC_05_book_hotel Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
+<Disp><![CDATA[Adactin_Hotel_Application Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T31">
+<AName><![CDATA[vuser_end]]></AName>
+<Summary sTime="24-Aug-23 - 21:11:31" eTime="24-Aug-23 - 21:11:31" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="42" >
+<Disp><![CDATA[vuser_end Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="24-Aug-23 - 21:10:31" eTime="24-Aug-23 - 21:11:37" passed="4" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
+<Disp><![CDATA[Test Adactin_Hotel_Application Summary]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

@@ -1,0 +1,6 @@
+"radiobutton_0=0&total_radiobutton=1&hotel_name_0=Hotel+Creek&location_0=Los+Angeles&rooms_0=3+"
+"-+Three+Rooms&arr_date_0=04%2F07%2F2031&dep_date_0=05%2F08%2F2032&no_days_0=3+Days&room_type_0"
+"=Standard&price_night_0=AUD+%24+125&total_price_0=AUD+%24+385&continue=Continue&hotel_name=Hot"
+"el+Creek&location_name=Los+Angeles&room_types=Standard&rooms_no=3+-+Three&arr_date=04%2F07%2F2"
+"031&dep_date=05%2F08%2F2032&no_days=3&adults_room=1+-+One&children_room=4+-+Four&price_night=A"
+"UD+%24+125&total_price=AUD+%24+385"

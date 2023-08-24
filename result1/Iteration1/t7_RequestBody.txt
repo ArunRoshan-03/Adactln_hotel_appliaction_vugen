@@ -1,0 +1,3 @@
+"location=Los+Angeles&hotels=Hotel+Creek&room_type=Standard&room_nos=3+-+Three&datepick_in=04%2"
+"F07%2F2031&datepick_out=05%2F08%2F2032&adult_room=1+-+One&child_room=4+-+Four&Submit=Search&da"
+"tepick_diff=3"

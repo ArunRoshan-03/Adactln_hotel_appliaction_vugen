@@ -1,0 +1,13 @@
+[t43]
+FileName1=t43.htm
+URL1=https://adactinhotelapp.com/BookHotel.php
+Total=2
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=t43_RequestBody.txt
+ResponseHeaderFile=t43_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_43.xml
+FileName2=t43_book_hotel.html
+URL2=https://adactinhotelapp.com/js/book_hotel.js
+[ProtocolInfo]
+ProtocolId=QTWeb

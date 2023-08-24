@@ -1,0 +1,5 @@
+"radiobutton_0=0&total_radiobutton=1&hotel_name_0=Hotel+Cornice&location_0=Brisbane&rooms_0=7+R"
+"ooms&arr_date_0=24%2F08%2F2023&dep_date_0=27%2F08%2F2023&no_days_0=3+Days&room_type_0=Double&p"
+"rice_night_0=AUD+%24+200&total_price_0=AUD+%24+610&continue=Continue&hotel_name=Hotel+Cornice&"
+"location_name=Brisbane&room_types=Double&rooms_no=7&arr_date=24%2F08%2F2023&dep_date=27%2F08%2"
+"F2023&no_days=3&adults_room=3&children_room=2&price_night=AUD+%24+200&total_price=AUD+%24+610"

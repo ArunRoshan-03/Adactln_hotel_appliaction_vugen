@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\arunroshan.r\Documents\VuGen\Scripts\Adactin_Hotel_Application
+-IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
+-ec:\users\arunroshan.r\documents\vugen\scripts\adactin_hotel_application\\logfile.log
+c:\users\arunroshan.r\documents\vugen\scripts\adactin_hotel_application\\combined_Adactin_Hotel_Application.c
+c:\users\arunroshan.r\documents\vugen\scripts\adactin_hotel_application\\pre_cci.c

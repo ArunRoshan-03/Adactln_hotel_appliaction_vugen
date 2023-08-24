@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8_recommendations.json
+URL1=https://firefox-api-proxy.cdn.mozilla.net/desktop/v1/recommendations?locale=en-US&region=IN&count=30
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+FileName2=t8_threatListUpdates_fetch.html
+URL2=https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDNpRIaAhgFvyWUsSICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABELfuDBoCGAWS5-7CIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ9OQMGgIYBVgBjK4iAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARC4tA0aAhgFC8Fr3yICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECEaAhgFRMpiUiICIAIoAQ==
+[ProtocolInfo]
+ProtocolId=QTWeb

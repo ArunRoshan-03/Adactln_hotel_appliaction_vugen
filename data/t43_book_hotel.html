@@ -1,0 +1,86 @@
+// JavaScript Document
+function OnlyNumbersonly(e){
+	var key;
+	var isCtrl = false;
+	if(window.event) {
+		key = e.keyCode;
+		isCtrl = window.event.ctrlKey
+	} else if(e.which) {
+		key = e.which;
+		isCtrl = e.ctrlKey;
+	}
+	if (isNaN(key)) return true;
+		keychar = String.fromCharCode(key);
+		
+	var unicode=e.charCode? e.charCode : e.keyCode
+	if (unicode!=8 && unicode!=isCtrl){ //if the key isn't the backspace key (which we should allow)
+		if (unicode<48||unicode>57) //if not a alphabet
+		return false //disable key press
+	}
+}
+
+function gonow() {
+	document.book_hotel_form.submit();
+}
+
+function book_hotel_validate() {
+	error_var=0;
+	if(document.book_hotel_form.first_name.value=="") {
+		document.getElementById("first_name_span").innerHTML = "Please Enter your First Name";
+		error_var=+1;
+	} else {
+		document.getElementById("first_name_span").innerHTML = "";
+	}
+	if(document.book_hotel_form.last_name.value=="") {
+		document.getElementById("last_name_span").innerHTML = "Please Enter you Last Name";
+		error_var=+1;
+	} else {
+		document.getElementById("last_name_span").innerHTML = "";
+	}
+	if(document.book_hotel_form.address.value=="") {
+		document.getElementById("address_span").innerHTML = "Please Enter your Address";
+		error_var=+1;
+	} else {
+		document.getElementById("address_span").innerHTML = "";
+	}
+	if(document.book_hotel_form.cc_num.value=="" || document.book_hotel_form.cc_num.value.length < 16) {
+		document.getElementById("cc_num_span").innerHTML = "Please Enter your 16 Digit Credit Card Number";
+		error_var=+1;
+	} else {
+		document.getElementById("cc_num_span").innerHTML = "";
+	}
+	if(document.book_hotel_form.cc_type.value=="") {
+		document.getElementById("cc_type_span").innerHTML = "Please Select your Credit Card Type";
+		error_var=+1;
+	} else {
+		document.getElementById("cc_type_span").innerHTML = "";
+	}
+	if(document.book_hotel_form.cc_exp_month.value=="") {
+		document.getElementById("cc_expiry_span").innerHTML = "Please Select your Credit Card Expiry Month";
+		error_var=+1;
+	} else if(document.book_hotel_form.cc_exp_year.value=="") {
+		document.getElementById("cc_expiry_span").innerHTML = "Please Select your Credit Card Expiry Year";
+		error_var=+1;
+	} else if(document.book_hotel_form.cc_exp_year.value=="2011") {
+		alert("Expiry year cannot be in Past");
+		document.book_hotel_form.cc_exp_year.value="2012";
+		//document.book_hotel_form.cc_exp_year.options[2].selected = true;
+		document.getElementById("cc_expiry_span").innerHTML = "";
+		error_var=+1;
+	} else {
+		document.getElementById("cc_expiry_span").innerHTML = "";
+	}
+	if(document.book_hotel_form.cc_cvv.value=="") {
+		document.getElementById("cc_cvv_span").innerHTML = "Please Enter your Credit Card CVV Number";
+		error_var=+1;
+	} else {
+		document.getElementById("cc_cvv_span").innerHTML = "";
+	}
+	// Error Check of All Validations
+	if (error_var>0) {
+		return false;
+	} else {
+		document.getElementById("process_span").innerHTML = "Please wait! We are processing your Hotel Booking...";
+		setTimeout("gonow()", 5000);
+	}
+}

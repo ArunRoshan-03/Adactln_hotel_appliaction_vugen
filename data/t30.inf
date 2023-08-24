@@ -1,0 +1,11 @@
+[t30]
+FileName1=t30_changeset.json
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/devtools-compatibility-browsers/changeset?_expected=1692814731173&_since=%221691389490465%22
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_30.xml
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,15 @@
+[t22]
+FileName1=t22.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/d80ef7c1-6b10-4ac4-ad44-ef10b3c66782
+Total=3
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=t22_RequestBody.txt
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_22.xml
+FileName2=t22_google-play.png
+URL2=https://adactinhotelapp.com/img/google-play.png
+FileName3=t22_hotel.jpg
+URL3=https://adactinhotelapp.com/img/hotel.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

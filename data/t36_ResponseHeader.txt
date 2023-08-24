@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/ocsp-response
+Content-Length: 5
+Cache-Control: no-cache
+Expires: Thu, 24 Aug 2023 07:22:29 GMT
+Date: Thu, 24 Aug 2023 07:22:29 GMT
+Connection: keep-alive
+

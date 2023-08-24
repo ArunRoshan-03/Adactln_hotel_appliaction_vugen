@@ -1,0 +1,14 @@
+// JavaScript Document
+function log_validate() {
+	if(document.login_form.username.value=="") {
+		document.getElementById("username_span").innerHTML = "Enter Username";
+		return false;
+	}
+	else if(document.login_form.password.value=="") {
+		document.getElementById("password_span").innerHTML = "Enter Password";
+		return false;
+	}
+	else {
+		return true;
+	}
+}

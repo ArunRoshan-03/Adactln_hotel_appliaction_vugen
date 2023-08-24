@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Adactin.com - Book A Hotel</title>
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+<script type="text/javascript" src="js/book_hotel.js">//Book Hotel Validation</script>
+</head>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="header">
+  <tr>
+    <td><img src="img/AdactIn_logo.png" alt="AdactIn Group" class="logo" /></td>
+    <td class="header_title"><img src="img/hotel.jpg" alt="Adactin Group: Hotel Reservation System" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="header_rule"></td>
+  </tr>
+</table><!-- SEARCH HOTELS BODY STARTS -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+  <tr>
+    <td valign="top" class="welcome_menu">Welcome to Adactin Group of Hotels</td>
+    <td align="right" valign="top" class="welcome_menu"><input type="text" name="username_show" id="username_show" class="input_show" value="Hello ArunRoshan0308!" /> <a href="SearchHotel.php">Search Hotel</a> | <a href="BookedItinerary.php">Booked Itinerary</a> | <a href="ChangePassword.php">Change Password</a> | <a href="Logout.php">Logout</a></td>
+    <td width="20%" rowspan="2" align="left" valign="top" class="right_adv_wrap"><table width="100%" border="0" cellspacing="0" cellpadding="10" class="right_adv">
+  <tr>
+    <td><h4 style="margin:0px;">Adactin Hotel Mobile App</h4><a href="https://adactinhotelapp.com/resources/AdactinHotelApp_SetupGuide.pdf" target="_blank">DOWNLOAD</a> the Hotel Mobile App and extend your experience. Click to know more about how to get the app on Android or IOS.
+	</td>
+  </tr><tr>
+    <td><h4 style="margin:0px;">HotelApp Web Services </h4>Access Hotel App SOAP and Rest Services to learn web services testing. <a href="https://adactinhotelapp.com/HotelAdactinWebServices/" target="_blank">Click</a> to know more.
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">Sample TestCases </h4><a href="http://adactinhotelapp.com/resources/Sample-TestCases_HotelApplication.pdf" target="_blank">DOWNLOAD</a> a complete set of readymade sample TEST CASES for this application. <span style="text-decoration:blink;">Enjoy automation!</span>
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">Known Defects </h4><a href="http://adactinhotelapp.com/resources/KnownDefects_HotelApp.pdf" target="_blank">DOWNLOAD</a> list of known defects for this application.
+	</td>
+  </tr>
+  <tr>
+	<td><h4 style="margin:0 0 10px 0;">Book on Automation</h4>
+	<iframe src="http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" frameBorder="0" height="300"></iframe>
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">About Adactin</h4>Get solutions for all your testing needs. Visit <a href="http://www.adactin.com">www.adactin.com</a> today!
+</td>
+  </tr>
+</table>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><form name="book_hotel_form" id="book_hotel_form" method="post" action="BookingConfirm.php" >
+      <table width="100%" border="0" cellpadding="2" cellspacing="0" class="login">
+	  <tr>
+		<td colspan="2" class="login_title"><a href="SelectHotel.php">Back</a></td>
+		</tr>
+        <tr>
+          <td colspan="2" class="login_title">Book A Hotel </td>
+        </tr>
+        <tr>
+          <td width="150" align="right">Hotel Name&nbsp;</td>
+          <td><input type="text" name="hotel_name_dis" id="hotel_name_dis" class="disable_text" value="Hotel Cornice" disabled="disabled" /></td>
+        </tr>
+        <tr>
+          <td align="right">Location&nbsp;</td>
+          <td><input type="text" name="location_dis" id="location_dis" class="disable_text" value="Brisbane" disabled="disabled" /></td>
+        </tr>
+        <tr>
+          <td align="right">Room Type&nbsp;</td>
+          <td><input type="text" name="room_type_dis" id="room_type_dis" class="disable_text" value="Double" disabled="disabled" /></td>
+        </tr>
+        <tr>
+          <td align="right">Number of Rooms&nbsp;</td>
+          <td><input type="text" name="room_num_dis" id="room_num_dis" class="disable_text" value="7 Room(s)" disabled="disabled" /></td>
+        </tr>
+		<tr>
+          <td align="right">Total Days&nbsp;</td>
+          <td><input name="total_days_dis" type="text" class="disable_text" id="total_days_dis" value="3 Day(s)" disabled="disabled" /></td>
+        </tr>
+		<tr>
+          <td align="right">Price per Night&nbsp;</td>
+          <td><input name="price_night_dis" type="text" class="disable_text" id="price_night_dis" value="AUD $ 200" disabled="disabled" /></td>
+        </tr>
+		<tr>
+          <td align="right">Total Price&nbsp;</td>
+          <td><input type="text" name="total_price_dis" id="total_price_dis" class="disable_text" value="AUD $ 610" disabled="disabled" /></td>
+        </tr>
+		<tr>
+          <td align="right">GST&nbsp;</td>
+          <td><input name="gst_dis" type="text" class="disable_text" id="gst_dis" value="AUD $ 61" disabled="disabled" /></td>
+        </tr>
+		<tr>
+          <td align="right">Final Billed Price&nbsp;</td>
+          <td><input type="text" name="final_price_dis" id="final_price_dis" class="disable_text" value="AUD $ 671" disabled="disabled" /></td>
+        </tr>
+		<tr>
+          <td align="right">First Name<span class="reg_error">*</span>&nbsp;</td>
+          <td><input name="first_name" type="text" class="reg_input" id="first_name" value="" maxlength="25" />
+          &nbsp;<label id="first_name_span" class="reg_error"></label></td>
+        </tr>
+		<tr>
+          <td align="right">Last Name<span class="reg_error">*</span>&nbsp;</td>
+          <td><input name="last_name" type="text" class="reg_input" id="last_name" value="" maxlength="25" />
+          &nbsp;<label id="last_name_span" class="reg_error"></label></td>
+        </tr>
+		<tr>
+          <td align="right" valign="top">Billing Address<span class="reg_error">*</span>&nbsp;</td>
+          <td><textarea name="address" rows="4" class="txtarea" id="address"></textarea>            
+            &nbsp;<label id="address_span" class="reg_error"></label></td>
+        </tr>
+		<tr>
+          <td align="right">Credit Card No.<span class="reg_error">*</span>&nbsp;</td>
+          <td><input name="cc_num" type="text" class="reg_input" id="cc_num" value="" maxlength="16" onkeypress="return OnlyNumbersonly(event)" />
+          &nbsp;<label id="cc_num_tip" class="data_input_tip">Use 16 digit Dummy Data</label> <label id="cc_num_span" class="reg_error"></label></td>
+        </tr>
+		<tr>
+          <td align="right">Credit Card Type<span class="reg_error">*</span>&nbsp;</td>
+          <td><select name="cc_type" id="cc_type" class="select_combobox">
+            <option value="">- Select Credit Card Type -</option>
+            <option value="AMEX">American Express</option>
+            <option value="VISA">VISA</option>
+            <option value="MAST">Master Card</option>
+            <option value="OTHR">Other</option>
+          </select>
+          &nbsp;<label id="cc_type_span" class="reg_error"></label></td>
+        </tr>
+		<tr>
+          <td align="right">Expiry Date<span class="reg_error">*</span>&nbsp;</td>
+          <td><select name="cc_exp_month" id="cc_exp_month" class="select_combobox2">
+            <option value="">- Select Month -</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+			<option value="4">April</option>
+			<option value="5">May</option>
+			<option value="6">June</option>
+			<option value="7">July</option>
+			<option value="8">August</option>
+			<option value="9">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+		  <select name="cc_exp_year" id="cc_exp_year" class="select_combobox2">
+          <option value="">- Select Year -</option>
+                    
+          <option value="2011">2011</option>
+                  
+          <option value="2012">2012</option>
+                  
+          <option value="2013">2013</option>
+                  
+          <option value="2014">2014</option>
+                  
+          <option value="2015">2015</option>
+                  
+          <option value="2016">2016</option>
+                  
+          <option value="2017">2017</option>
+                  
+          <option value="2018">2018</option>
+                  
+          <option value="2019">2019</option>
+                  
+          <option value="2020">2020</option>
+                  
+          <option value="2021">2021</option>
+                  
+          <option value="2022">2022</option>
+                  
+          <option value="2023">2023</option>
+                  
+          <option value="2024">2024</option>
+                  
+          <option value="2025">2025</option>
+                  
+          <option value="2026">2026</option>
+                  
+          <option value="2027">2027</option>
+                  
+          <option value="2028">2028</option>
+                  
+          <option value="2029">2029</option>
+                  
+          <option value="2030">2030</option>
+                   
+            <!-- <option value="2011">2011</option>
+			<option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+			<option value="2016">2016</option>
+			<option value="2017">2017</option>
+			<option value="2018">2018</option>
+			<option value="2019">2019</option>
+			<option value="2020">2020</option>
+			<option value="2021">2021</option>
+			<option value="2022">2022</option> -->
+          </select>
+          &nbsp;<label id="cc_expiry_span" class="reg_error"></label></td>
+        </tr>
+		<tr>
+          <td align="right">CVV Number<span class="reg_error">*</span>&nbsp;</td>
+          <td><input name="cc_cvv" type="text" class="reg_input" id="cc_cvv" value="" maxlength="4" onkeypress="return OnlyNumbersonly(event)" />
+          &nbsp;<label id="cc_cvv_span" class="reg_error"></label></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><input type="button" name="book_now" id="book_now" class="reg_button" value="Book Now" onclick="book_hotel_validate();"/>
+              <input type="button" name="cancel" id="cancel" class="reg_button" value="Cancel" onclick='window.location="SelectHotel.php"' />
+			  &nbsp;<label id="process_span" class="reg_error"></label>
+			  <input name="hotel_name_hid" id="hotel_name_hid" type="hidden" value="Hotel Cornice" />
+			  <input name="location_name_hid" id="location_name_hid" type="hidden" value="Brisbane" />
+			  <input name="room_types_hid" id="room_types_hid" type="hidden" value="Double" />
+			  <input name="rooms_no_hid" id="rooms_no_hid" type="hidden" value="7" />
+			  <input name="arr_date_hid" id="arr_date_hid" type="hidden" value="24/08/2023" />
+			  <input name="dep_date_hid" id="dep_date_hid" type="hidden" value="27/08/2023" />
+			  <input name="no_days_hid" id="no_days_hid" type="hidden" value="3" />
+			  <input name="adults_room_hid" id="adults_room_hid" type="hidden"  value="3" />
+			  <input name="children_room_hid" id="children_room_hid" type="hidden" value="2" />
+			  <input name="price_night_hid" id="price_night_hid" type="hidden" value="AUD $ 200" />
+			  <input name="total_price_hid" id="total_price_hid" type="hidden" value="AUD $ 610" />
+			  <input name="gst_hid" id="gst_hid" type="hidden" value="AUD $ 61" />
+			  <input name="final_price_hid" id="final_price_hid" type="hidden" value="AUD $ 671" />
+			  </td>
+        </tr>
+      </table>
+    </form></td>
+  </tr>
+</table>
+<!-- SEARCH HOTELS BODY ENDS -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="footer_rule"></td>
+  </tr>
+  <tr>
+    <td class="footer">&copy; 2020 - <a href="http://www.adactin.com">Adactin.com</a>. All Rights Reserved. Adactin Group Pty. Ltd.</td>
+  </tr>
+</table>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30741095-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script></body>
+</html>

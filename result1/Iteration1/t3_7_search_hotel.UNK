@@ -1,0 +1,75 @@
+// JavaScript Document
+function search_validate() {
+	error_var=0;
+	if(document.search_form.location.value=="") {
+		document.getElementById("location_span").innerHTML = "Please Select a Location";
+		error_var=+1;
+	} else {
+		document.getElementById("location_span").innerHTML = "";
+	}
+	/*if(document.search_form.hotels.value=="") {
+		document.getElementById("hotel_span").innerHTML = "Please Select a Hotel";
+		error_var=+1;
+	} else {
+		document.getElementById("hotel_span").innerHTML = "";
+	}
+	if(document.search_form.room_type.value=="") {
+		document.getElementById("room_type_span").innerHTML = "Please Select Room Type";
+		error_var=+1;
+	} else {
+		document.getElementById("room_type_span").innerHTML = "";
+	}*/
+	if(document.search_form.room_nos.value=="") {
+		document.getElementById("num_room_span").innerHTML = "Please Select Total Number of Rooms";
+		error_var=+1;
+	} else {
+		document.getElementById("num_room_span").innerHTML = "";
+	}
+	if(document.search_form.datepick_in.value=="") {
+		document.getElementById("checkin_span").innerHTML = "Please Select Check-In Date";
+		error_var=+1;
+	} else {
+		document.getElementById("checkin_span").innerHTML = "";
+		checkin_arr = document.search_form.datepick_in.value.split("/",3);
+		checkin_str = checkin_arr[2]+checkin_arr[1]+checkin_arr[0];
+	}
+	if(document.search_form.datepick_out.value=="") {
+		document.getElementById("checkout_span").innerHTML = "Please Select Check-Out Date";
+		error_var=+1;
+	} else {
+		document.getElementById("checkout_span").innerHTML = "";
+		checkout_arr = document.search_form.datepick_out.value.split("/",3);
+		checkout_str = checkout_arr[2]+checkout_arr[1]+checkout_arr[0];
+	}
+	if(document.search_form.datepick_in.value!="" && document.search_form.datepick_out.value!="") {
+		if(checkout_str < checkin_str) {
+			document.getElementById("checkin_span").innerHTML = "Check-In Date shall be before than Check-Out Date";
+			document.getElementById("checkout_span").innerHTML = "Check-Out Date shall be after than Check-In Date";
+			error_var=+1;
+		} else {
+			document.getElementById("checkin_span").innerHTML = "";
+			document.getElementById("checkout_span").innerHTML = "";
+			//Calculate Date Differnce in Days			
+			var strDate1 = checkout_arr[1]+"/"+checkout_arr[0]+"/"+checkout_arr[2];
+    		var strDate2 = checkin_arr[1]+"/"+checkin_arr[0]+"/"+checkin_arr[2];
+			//alert(strDate1+" "+strDate2);
+			datDate1= Date.parse(strDate1);
+			datDate2= Date.parse(strDate2);
+			dateDiff = ((datDate1-datDate2)/(24*3600*1000))
+			//alert(dateDiff);
+			document.search_form.datepick_diff.value = dateDiff;
+		}
+	}
+	if(document.search_form.adult_room.value=="") {
+		document.getElementById("adults_room_span").innerHTML = "Please Select Adults per Room";
+		error_var=+1;
+	} else {
+		document.getElementById("adults_room_span").innerHTML = "";	
+	}
+	// Error Check of All Validations
+	if (error_var>0) {
+		return false;
+	} else {
+		return true;
+	}
+}

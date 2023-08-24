@@ -1,0 +1,8 @@
+[t9]
+FileName1=t9_cfr-v1-en-US.html
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US
+Total=2
+ContentType=binary/octet-stream
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_remote-settings.content-signature.mozilla.org-2023-09-19-11-14-05.html
+URL2=https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2023-09-19-11-14-05.chain

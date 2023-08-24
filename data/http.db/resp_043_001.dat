@@ -1,0 +1,171 @@
+1f60
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Adactin.com - Hotel Booking Confirmation</title>
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="header">
+  <tr>
+    <td><img src="img/AdactIn_logo.png" alt="AdactIn Group" class="logo" /></td>
+    <td class="header_title"><img src="img/hotel.jpg" alt="Adactin Group: Hotel Reservation System" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="header_rule"></td>
+  </tr>
+</table><!-- SEARCH HOTELS BODY STARTS -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+  <tr>
+    <td valign="top" class="welcome_menu">Welcome to Adactin Group of Hotels</td>
+    <td align="right" valign="top" class="welcome_menu"><input type="text" name="username_show" id="username_show" class="input_show" value="Hello ArunRoshan0308!" /> <a href="SearchHotel.php">Search Hotel</a> | <a href="BookedItinerary.php">Booked Itinerary</a> | <a href="ChangePassword.php">Change Password</a> | <a href="Logout.php">Logout</a></td>
+    <td width="20%" rowspan="2" align="left" valign="top" class="right_adv_wrap"><table width="100%" border="0" cellspacing="0" cellpadding="10" class="right_adv">
+  <tr>
+    <td><h4 style="margin:0px;">Adactin Hotel Mobile App</h4><a href="https://adactinhotelapp.com/resources/AdactinHotelApp_SetupGuide.pdf" target="_blank">DOWNLOAD</a> the Hotel Mobile App and extend your experience. Click to know more about how to get the app on Android or IOS.
+	</td>
+  </tr><tr>
+    <td><h4 style="margin:0px;">HotelApp Web Services </h4>Access Hotel App SOAP and Rest Services to learn web services testing. <a href="https://adactinhotelapp.com/HotelAdactinWebServices/" target="_blank">Click</a> to know more.
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">Sample TestCases </h4><a href="http://adactinhotelapp.com/resources/Sample-TestCases_HotelApplication.pdf" target="_blank">DOWNLOAD</a> a complete set of readymade sample TEST CASES for this application. <span style="text-decoration:blink;">Enjoy automation!</span>
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">Known Defects </h4><a href="http://adactinhotelapp.com/resources/KnownDefects_HotelApp.pdf" target="_blank">DOWNLOAD</a> list of known defects for this application.
+	</td>
+  </tr>
+  <tr>
+	<td><h4 style="margin:0 0 10px 0;">Book on Automation</h4>
+	<iframe src="http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" frameBorder="0" height="300"></iframe>
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">About Adactin</h4>Get solutions for all your testing needs. Visit <a href="http://www.adactin.com">www.adactin.com</a> today!
+</td>
+  </tr>
+</table>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><form name="booking_form" id="booking_form" method="post" action="" onsubmit="">
+      <table width="100%" border="0" cellpadding="2" cellspacing="0" class="login">
+        <tr>
+          <td colspan="2" class="login_title">Booking Confirmation </td>
+        </tr>
+        <tr>
+          <td width="150" align="right">Hotel Name&nbsp;</td>
+          <td><input name="hotel_name" type="text" class="disable_text" id="hotel_name" value="Hotel Cornice" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">Location&nbsp;</td>
+          <td><input name="location" type="text" class="disable_text" id="location" value="Brisbane" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right">Room Type &nbsp;</td>
+          <td><input name="room_type" type="text" class="disable_text" id="room_type" value="Deluxe" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Arrival Date  &nbsp;</td>
+          <td><input name="arrival_date" type="text" class="disable_text" id="arrival_date" value="24/08/2023" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+        <tr>
+          <td align="right">Departure Date  &nbsp;</td>
+          <td><input name="departure_date" type="text" class="disable_text" id="departure_text" value="27/08/2023" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Total Rooms &nbsp;</td>
+          <td><input name="total_rooms" type="text" class="disable_text" id="total_rooms" value="7 Room(s)" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Adults Per Room  &nbsp;</td>
+          <td><input name="adults_room" type="text" class="disable_text" id="adults_room" value="3 Adult(s)" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Children per Room  &nbsp;</td>
+          <td><input name="children_room" type="text" class="disable_text" id="children_room" value="2 Children" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Price per Night &nbsp;</td>
+          <td><input name="price_night" type="text" class="disable_text" id="price_night" value="AUD $ 200" disabled="disabled" />
+            &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Total Price &nbsp;</td>
+          <td><input name="total_price" type="text" class="disable_text" id="total_price" value="AUD $ 610" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">GST &nbsp;</td>
+          <td><input name="gst" type="text" class="disable_text" id="gst" value="AUD $ 61" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Final Billed Price  &nbsp;</td>
+          <td><input name="final_price" type="text" class="disable_text" id="final_price" value="AUD $ 671" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">First Name &nbsp;</td>
+          <td><input name="first_name" type="text" class="disable_text" id="first_name" value="raja" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Last Name &nbsp;</td>
+          <td><input name="last_name" type="text" class="disable_text" id="last_name" value="" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right" valign="top">Billing Address &nbsp;</td>
+          <td><textarea name="address" rows="3" class="disable_textarea" id="address" disabled="disabled">trichy</textarea>
+            &nbsp;</td>
+        </tr>
+		<tr>
+          <td align="right">Order No.   &nbsp;</td>
+          <td><input name="order_no" type="text" class="disable_text" id="order_no" value="36HIJFMV6O" disabled="disabled" />            
+          &nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><input type="button" name="search_hotel" id="search_hotel" class="reg_button" value="Search Hotel" style="width:150px;" onclick='window.location="SearchHotel.php"' />
+            <input type="button" name="my_itinerary" id="my_itinerary" class="reg_button" value="My Itinerary" onclick='window.location="BookedItinerary.php"' />
+              <input type="button" name="logout" id="logout" class="reg_button" value="Logout" onclick='window.location="Logout.php"' /></td>
+        </tr>
+      </table>
+    </form></td>
+  </tr>
+</table>
+<!-- SEARCH HOTELS BODY ENDS -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="footer_rule"></td>
+  </tr>
+  <tr>
+    <td class="footer">&copy; 2020 - <a href="http://www.adactin.com">Adactin.com</a>. All Rights Reserved. Adactin Group Pty. Ltd.</td>
+  </tr>
+</table>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.pus
+1a3
+h(['_setAccount', 'UA-30741095-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script></body>
+</html>
+0
+

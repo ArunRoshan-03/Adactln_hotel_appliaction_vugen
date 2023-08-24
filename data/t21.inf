@@ -1,0 +1,15 @@
+[t21]
+FileName1=t21.html
+URL1=http://r3.o.lencr.org/
+Total=3
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=t21_RequestBody.txt
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_AdactIn_logo.png
+URL2=https://adactinhotelapp.com/img/AdactIn_logo.png
+FileName3=t21_main-image-hotel-app.png
+URL3=https://adactinhotelapp.com/img/main-image-hotel-app.png
+[ProtocolInfo]
+ProtocolId=QTWeb

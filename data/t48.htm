@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Adactin.com - Select Hotel</title>
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+<script>
+function cancel_booking(row_id,order_id) {
+	if(confirm('Are you sure, you want to cancel the booking with Order no. '+order_id+'?')){
+		window.location="BookedItinerary.php?cancel_order="+row_id;
+	}
+}
+</script>
+<script>
+		function checkall(booked_form)
+		{
+		len = booked_form.elements.length;
+		var i=0;
+		for( i=0 ; i<len ; i++)
+		{
+		if (booked_form.elements[i].type=='checkbox') booked_form.elements[i].checked=booked_form.check_all.checked;
+		}
+		}
+		</script>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="header">
+  <tr>
+    <td><img src="img/AdactIn_logo.png" alt="AdactIn Group" class="logo" /></td>
+    <td class="header_title"><img src="img/hotel.jpg" alt="Adactin Group: Hotel Reservation System" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="header_rule"></td>
+  </tr>
+</table><!-- SEARCH HOTELS BODY STARTS -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+  <tr>
+    <td valign="top" class="welcome_menu">Welcome to Adactin Group of Hotels</td>
+    <td align="right" valign="top" class="welcome_menu"><input type="text" name="username_show" id="username_show" class="input_show" value="Hello ArunRoshan0308!" /> <a href="SearchHotel.php">Search Hotel</a> | <a href="BookedItinerary.php">Booked Itinerary</a> | <a href="ChangePassword.php">Change Password</a> | <a href="Logout.php">Logout</a></td>
+    <!--<td width="20%" rowspan="2" align="left" valign="top" class="right_adv_wrap"><table width="100%" border="0" cellspacing="0" cellpadding="10" class="right_adv">
+  <tr>
+    <td><h4 style="margin:0px;">Adactin Hotel Mobile App</h4><a href="https://adactinhotelapp.com/resources/AdactinHotelApp_SetupGuide.pdf" target="_blank">DOWNLOAD</a> the Hotel Mobile App and extend your experience. Click to know more about how to get the app on Android or IOS.
+	</td>
+  </tr><tr>
+    <td><h4 style="margin:0px;">HotelApp Web Services </h4>Access Hotel App SOAP and Rest Services to learn web services testing. <a href="https://adactinhotelapp.com/HotelAdactinWebServices/" target="_blank">Click</a> to know more.
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">Sample TestCases </h4><a href="http://adactinhotelapp.com/resources/Sample-TestCases_HotelApplication.pdf" target="_blank">DOWNLOAD</a> a complete set of readymade sample TEST CASES for this application. <span style="text-decoration:blink;">Enjoy automation!</span>
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">Known Defects </h4><a href="http://adactinhotelapp.com/resources/KnownDefects_HotelApp.pdf" target="_blank">DOWNLOAD</a> list of known defects for this application.
+	</td>
+  </tr>
+  <tr>
+	<td><h4 style="margin:0 0 10px 0;">Book on Automation</h4>
+	<iframe src="http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" frameBorder="0" height="300"></iframe>
+	</td>
+  </tr>
+  <tr>
+    <td><h4 style="margin:0px;">About Adactin</h4>Get solutions for all your testing needs. Visit <a href="http://www.adactin.com">www.adactin.com</a> today!
+</td>
+  </tr>
+</table>
+</td>-->
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><form name="booked_form" id="booked_form" method="post" action="BookedItinerary.php" onsubmit="">
+      <table width="100%" border="0" cellpadding="2" cellspacing="0" class="login">
+        <tr>
+          <td>
+		    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+					<td width="40%" class="login_title">Booked Itinerary</td>
+					<td align="center"><label id="search_result_error" class="reg_error">
+					1 result(s) found. <a href="BookedItinerary.php">Show all</a></label>
+					</td>
+					<td width="40%" align="right">Search Order Id 
+			        <input name="order_id_text" type="text" class="input_search" id="order_id_text" value="" size="15" maxlength="10" /><input type="submit" name="search_hotel_id" id="search_hotel_id" class="button_search" style="width:50px;" value="Go" />&nbsp;&nbsp;</td>
+				  </tr>
+			</table>
+		  </td>
+        </tr>
+        <tr>
+          <td align="right" style="padding:0 10px;"><table width="100%" border="0" cellspacing="1" cellpadding="5">
+            <tr align="center">
+			<td bgcolor="#CCCCCC" width="25px"><div align="left">
+                                    <input name="check_all" type="checkbox" onclick="checkall(this.form)" value="check_all"  id="check_all"/>
+                                </div></td>
+              <td bgcolor="#CCCCCC" width="100px"><strong>Order Id </strong></td>
+			  <td bgcolor="#CCCCCC"><strong>Cancel </strong></td>
+              <td bgcolor="#CCCCCC" width="100px"><strong>Hotel Name </strong></td>
+              <td bgcolor="#CCCCCC"><strong>Location</strong></td>
+              <td bgcolor="#CCCCCC"><strong>Rooms</strong></td>
+			  <td bgcolor="#CCCCCC"><strong>First Name</strong></td>
+			  <td bgcolor="#CCCCCC"><strong>Last Name</strong></td>
+              <td bgcolor="#CCCCCC"><strong>Arrival Date </strong></td>
+              <td bgcolor="#CCCCCC"><strong>Departure Date </strong></td>
+              <td bgcolor="#CCCCCC"><strong>No. of Days </strong></td>
+              <td bgcolor="#CCCCCC"><strong>Rooms Type </strong></td>
+              <td bgcolor="#CCCCCC"><strong>Price per Night</strong></td>
+              <td bgcolor="#CCCCCC"><strong>Total Price (incl. GST) </strong></td>
+            </tr>
+						<tr>
+			<td bgcolor="#FFFFFF"><input name="ids[]" type="checkbox" value="901969" /></td>
+              <td bgcolor="#FFFFFF"><input name="order_id_901969" id="order_id_901969" type="text" value="36HIJFMV6O" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+			  <td bgcolor="#FFFFFF"><input name="btn_id_901969" id="btn_id_901969" type="button" style="width:150px;" value="Cancel 36HIJFMV6O" onclick="cancel_booking('901969','36HIJFMV6O');" /></td>
+              <td bgcolor="#FFFFFF"><input name="hotel_name_901969" id="hotel_name_901969" type="text"  value="Hotel Cornice" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+              <td bgcolor="#FFFFFF"><input name="location_901969" id="location_901969" type="text"  value="Brisbane" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+              <td bgcolor="#FFFFFF"><input name="rooms_901969" id="rooms_901969" type="text"  value="7 Rooms" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+			  <td bgcolor="#FFFFFF"><input name="first_name_901969" id="first_name_901969" type="text"  value="raja" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+			  <td bgcolor="#FFFFFF"><input name="last_name_901969" id="last_name_901969" type="text"  value="kanna" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+              <td bgcolor="#FFFFFF"><input name="arr_date_901969" id="arr_date_901969" type="text"  value="24/08/2023" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+              <td bgcolor="#FFFFFF"><input name="dep_date_901969" id="dep_date_901969" type="text"  value="27/08/2023" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+              <td bgcolor="#FFFFFF"><input name="no_days_901969" id="no_days_901969" type="text"  value="3 Days" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+              <td bgcolor="#FFFFFF"><input name="room_type_901969" id="room_type_901969" type="text"  value="Double" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+              <td bgcolor="#FFFFFF"><input name="price_night_901969" id="price_night_901969" type="text"  value="AUD $ 200" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+              <td bgcolor="#FFFFFF"><input name="total_price_901969" id="total_price_901969" type="text"  value="AUD $ 671" class="select_text" onfocus="disable_ctrlV()" onkeypress="return Nothingonly(event)" /></td>
+            </tr>
+			          </table></td>
+          </tr>
+        <tr>
+          <td align="center"><input name="cancelall" type="submit" style="width:130px;" class="reg_button" value="Cancel Selected" onclick="return window.confirm('Are you sure want to Cancel Selected?.');" /><input type="button" name="search_hotel" id="search_hotel" style="width:150px;" class="reg_button" value="Search Hotel" onclick='window.location="SearchHotel.php"' />
+              <input type="button" name="logout" id="logout" class="reg_button" value="Logout" onclick='window.location="Logout.php"' /></td>
+          </tr>
+      </table>
+    </form></td>
+  </tr>
+</table>
+<!-- SEARCH HOTELS BODY ENDS -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="footer_rule"></td>
+  </tr>
+  <tr>
+    <td class="footer">&copy; 2020 - <a href="http://www.adactin.com">Adactin.com</a>. All Rights Reserved. Adactin Group Pty. Ltd.</td>
+  </tr>
+</table>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30741095-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script></body>
+</html>

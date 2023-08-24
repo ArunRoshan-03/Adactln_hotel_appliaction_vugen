@@ -1,0 +1,418 @@
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\VuGen.exe
+		10.0.19041.1741 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ntdll.dll
+		10.0.19041.1741 (WinBuild.160101.0800)C:\Windows\System32\KERNEL32.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\MSCOREE.DLL
+		10.0.19041.1741 (WinBuild.160101.0800)C:\Windows\System32\KERNELBASE.dll
+		3.9.1.2310                    C:\Windows\System32\hmpalert.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\ADVAPI32.dll
+		7.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\msvcrt.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\sechost.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\RPCRT4.dll
+		4.8.4180.0 built by: NET48REL1LAST_BC:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\SHLWAPI.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\kernel.appcore.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\VERSION.dll
+		4.8.4614.0 built by: NET48REL1LAST_BC:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\USER32.dll
+		10.0.19041.2364 (WinBuild.160101.0800)C:\Windows\System32\win32u.dll
+		10.0.19041.2130 (WinBuild.160101.0800)C:\Windows\System32\GDI32.dll
+		10.0.19041.2364 (WinBuild.160101.0800)C:\Windows\System32\gdi32full.dll
+		10.0.19041.789 (WinBuild.160101.0800)C:\Windows\System32\msvcp_win.dll
+		10.0.19041.789 (WinBuild.160101.0800)C:\Windows\System32\ucrtbase.dll
+		14.10.25028.0 built by: VCTOOLSD15RTMC:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll
+		14.10.25028.0 built by: VCTOOLSD15RTMC:\Windows\SYSTEM32\ucrtbase_clr0400.dll
+		10.0.19041.2193 (WinBuild.160101.0800)C:\Windows\System32\IMM32.DLL
+		4.8.4614.0 built by: NET48REL1LAST_BC:\Windows\assembly\NativeImages_v4.0.30319_32\mscorlib\b8b4f2e4a119ba27f271d768ced7e470\mscorlib.ni.dll
+		10.0.19041.1320 (WinBuild.160101.0800)C:\Windows\System32\ole32.dll
+		10.0.19041.1320 (WinBuild.160101.0800)C:\Windows\System32\combase.dll
+		10.0.19041.1415 (WinBuild.160101.0800)C:\Windows\System32\bcryptPrimitives.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\uxtheme.dll
+		4.8.4614.0 built by: NET48REL1LAST_BC:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll
+		10.0.19041.985 (WinBuild.160101.0800)C:\Windows\System32\OLEAUT32.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\CRYPTSP.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\rsaenh.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\bcrypt.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\CRYPTBASE.dll
+		4.8.4605.0 built by: NET48REL1LAST_CC:\Windows\assembly\NativeImages_v4.0.30319_32\System\36798a13542b98319621b3f4a2db175a\System.ni.dll
+		4.8.4605.0 built by: NET48REL1LAST_CC:\Windows\assembly\NativeImages_v4.0.30319_32\System.Core\85900d22ffacf55c0ab469d5650166ad\System.Core.ni.dll
+		10.0.19041.964 (WinBuild.160101.0800)C:\Windows\System32\shell32.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\windows.storage.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\Wldp.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\SHCORE.dll
+		4.8.4190.0 built by: NET48REL1LAST_BC:\Windows\assembly\NativeImages_v4.0.30319_32\System.Configuration\c6c418a741ffca97232fe30551c4396b\System.Configuration.ni.dll
+		4.8.4084.0 built by: NET48REL1C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Xml\c075a1598172d8e908ad9b8b1524fda5\System.Xml.ni.dll
+		10.0.19041.844 (WinBuild.160101.0800)C:\Windows\SYSTEM32\profapi.dll
+		5.82 (WinBuild.160101.0800)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d\comctl32.dll
+		10.0.19041.2251 (WinBuild.160101.0800)C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.2251_none_d9513b1fe1046fc7\gdiplus.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\DWrite.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\MSCTF.dll
+		                              C:\Windows\System32\TextShaping.dll
+		4.8.4605.0 built by: NET48REL1LAST_CC:\Windows\assembly\NativeImages_v4.0.30319_32\WindowsBase\1168cf22e3889feaccbf7e87eba3c595\WindowsBase.ni.dll
+		10.0.19041.1706 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WindowsCodecs.dll
+		4.8.4605.0 built by: NET48REL1LAST_CC:\Windows\assembly\NativeImages_v4.0.30319_32\PresentationCore\718d2dc7afa96fe952517187ae3aea63\PresentationCore.ni.dll
+		10.0.19041.2075 (WinBuild.160101.0800)C:\Windows\SYSTEM32\textinputframework.dll
+		10.0.19041.546                C:\Windows\System32\CoreUIComponents.dll
+		10.0.19041.2193               C:\Windows\System32\CoreMessaging.dll
+		10.0.19041.1081 (WinBuild.160101.0800)C:\Windows\System32\WS2_32.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ntmarta.dll
+		10.0.19041.1320 (WinBuild.160101.0800)C:\Windows\SYSTEM32\wintypes.dll
+		4.8.4605.0                    C:\Windows\assembly\NativeImages_v4.0.30319_32\Presentatio5ae0f00f#\9fb2c3f179eeccdbad6d06049cf728b4\PresentationFramework.ni.dll
+		6.10 (WinBuild.160101.0800)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_a8625c1886757984\comctl32.dll
+		4.8.4605.0 built by: NET48REL1LAST_CC:\Windows\assembly\NativeImages_v4.0.30319_32\System.Xaml\271b709cc8e2113bb3e46945ddc2bc1d\System.Xaml.ni.dll
+		4.8.4605.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\wpfgfx_v0400.dll
+		14.10.25028.0 built by: VCTOOLSD15RTMC:\Windows\SYSTEM32\MSVCP140_CLR0400.dll
+		4.8.4605.0 built by: NET48REL1LAST_CC:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\PresentationNative_v0400.dll
+		2001.12.10941.16384 (WinBuild.160101.0800)C:\Windows\System32\clbcatq.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\RegistryUtil.dll
+		14.32.31332.0                 C:\Windows\SYSTEM32\mfc140.dll
+		14.32.31332.0                 C:\Windows\SYSTEM32\VCRUNTIME140.dll
+		4.8.4536.0 built by: NET48REL1LAST_CC:\Windows\assembly\NativeImages_v4.0.30319_32\System.Runteb92aa12#\ddbdb0183c1a65189fd11c47a2456e4f\System.Runtime.Serialization.ni.dll
+		4.8.4084.0 built by: NET48REL1C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Xml.Linq\7e3a3cd6185018e165284e957728646d\System.Xml.Linq.ni.dll
+		4.8.4584.0 built by: NET48REL1LAST_BC:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\CRYPT32.dll
+		11.00.19041.2075 (WinBuild.160101.0800)C:\Windows\SYSTEM32\urlmon.dll
+		11.00.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\iertutil.dll
+		10.0.19041.1645 (WinBuild.160101.0800)C:\Windows\SYSTEM32\srvcli.dll
+		10.0.19041.1466 (WinBuild.160101.0800)C:\Windows\SYSTEM32\netutils.dll
+		10.0.19041.2130 (WinBuild.160101.0800)C:\Windows\SYSTEM32\SspiCli.dll
+		7.0.19041.1708 (WinBuild.160101.0800)C:\Windows\SYSTEM32\PROPSYS.dll
+		10.0.19041.2311 (WinBuild.160101.0800)C:\Windows\SYSTEM32\virtdisk.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\FLTLIB.DLL
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\IconCodecService.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\DWMAPI.dll
+		10.0.19041.2311 (WinBuild.160101.0800)C:\Windows\SYSTEM32\d3d9.dll
+		31.0.101.4255                 C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9b1458a7b0ebbf15\igdumdim32.dll
+		31.0.101.4255                 C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9b1458a7b0ebbf15\igd9dxva32.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\SETUPAPI.dll
+		10.0.19041.1620 (WinBuild.160101.0800)C:\Windows\System32\cfgmgr32.dll
+		31.0.101.4255                 C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9b1458a7b0ebbf15\media_bin_32.dll
+		31.0.101.4255                 C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9b1458a7b0ebbf15\igdgmm32.dll
+		4.8.4084.0 built by: NET48REL1C:\Windows\assembly\NativeImages_v4.0.30319_32\Presentatioaec034ca#\7bb64c945a8cc9e02483fe518299bc58\PresentationFramework.Aero2.ni.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\mscms.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\USERENV.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ColorAdapterClient.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WindowsCodecsExt.dll
+		10.0.19041.1387 (WinBuild.160101.0800)C:\Windows\system32\dataexchange.dll
+		10.0.19041.2075 (WinBuild.160101.0800)C:\Windows\system32\d3d11.dll
+		10.0.19041.2075 (WinBuild.160101.0800)C:\Windows\system32\dcomp.dll
+		10.0.19041.2311 (WinBuild.160101.0800)C:\Windows\system32\dxgi.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\twinapi.appcore.dll
+		1.0.1774.30                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebView2Loader.dll
+		113.0.1774.35                 C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebView2Runtime\EBWebView\x86\EmbeddedBrowserWebView.dll
+		4.8.4494.0 built by: NET48REL1LAST_BC:\Windows\Microsoft.NET\Framework\v4.0.30319\webengine4.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\PSAPI.DLL
+		7.2.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\UIAutomationCore.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\sxs.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\mswsock.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\snapshotloaderwrap.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mosifs32.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\wrapicu.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\thrdutil.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\IPHLPAPI.DLL
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\icuuc69.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\icudt69.dll
+		14.32.31332.0                 C:\Windows\SYSTEM32\MSVCP140.dll
+		14.2.3792.0                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ViewerGen.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\atlthunk.dll
+		11.00.19041.2075 (WinBuild.160101.0800)C:\Windows\System32\ieframe.dll
+		10.0.19041.2130 (WinBuild.160101.0800)C:\Windows\System32\NETAPI32.dll
+		10.0.19041.2075 (WinBuild.160101.0800)C:\Windows\System32\WINHTTP.dll
+		10.0.19041.1645 (WinBuild.160101.0800)C:\Windows\System32\WKSCLI.DLL
+		14.8.4614.0 built by: NET48REL1LAST_BC:\Windows\Microsoft.NET\Framework\v4.0.30319\diasymreader.dll
+		11.00.19041.2130 (WinBuild.160101.0800)C:\Windows\SYSTEM32\msIso.dll
+		11.00.19041.2075 (WinBuild.160101.0800)C:\Windows\System32\mshtml.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\powrprof.dll
+		                              C:\Windows\SYSTEM32\UMPDC.dll
+		11.00.19041.2075 (WinBuild.160101.0800)C:\Windows\System32\WININET.dll
+		10.0.19041.1081 (WinBuild.160101.0800)C:\Windows\System32\srpapi.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\DNSAPI.dll
+		10.0.19041.610 (WinBuild.160101.0800)C:\Windows\System32\NSI.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\rasadhlp.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\fwpuclnt.dll
+		23.1.0.251                    C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ielpview.dll
+		23.1.0.251                    C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\AsmHook.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\MsftEdit.DLL
+		23.1.0.251                    C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\VirFileSystemMng.dll
+		23.1.0.251                    C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\VirPrivateProfiles.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\msimtf.dll
+		3.10.349.0                    C:\Windows\System32\msls31.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\d2d1.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\appresolver.dll
+		10.0.19041.1566 (WinBuild.160101.0800)C:\Windows\System32\Bcp47Langs.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\SLC.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\sppc.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\LINKINFO.dll
+		10.0.19041.2075 (WinBuild.160101.0800)C:\Windows\SYSTEM32\d3d10warp.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ntshrui.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\dxcore.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\cscapi.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\Secur32.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\MLANG.dll
+		10.0.19041.2311 (WinBuild.160101.0800)C:\Windows\SYSTEM32\policymanager.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\msvcp110_win.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\wtsapi32.dll
+		10.0.19041.2075 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WINSTA.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\msctfui.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WINMM.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\explorerframe.dll
+		10.0.19041.1266 (WinBuild.160101.0800)C:\Windows\SYSTEM32\rasapi32.dll
+		10.0.19041.1949 (WinBuild.160101.0800)C:\Windows\SYSTEM32\rasman.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\D3DCOMPILER_47.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\rtutils.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\dhcpcsvc6.DLL
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\dhcpcsvc.DLL
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WINNSI.DLL
+		10.0.19041.1708 (WinBuild.160101.0800)C:\Windows\System32\Windows.Globalization.dll
+		10.0.19041.1503 (WinBuild.160101.0800)C:\Windows\System32\bcp47mrm.dll
+		10.0.19041.1806 (WinBuild.160101.0800)C:\Windows\SYSTEM32\globinputhost.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\schannel.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\mskeyprotect.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\NTASN1.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ncrypt.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\system32\ncryptsslp.dll
+		10.0.19041.2251 (WinBuild.160101.0800)C:\Windows\System32\MSASN1.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ArchiveManager.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\coparamui.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\PathResolver.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramui.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\MPR.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\parameng.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\dtable32.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\is32.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lr_vug32.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\msg_handler.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mlib_ds.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\config.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libxdrutil.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\run_time_context.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\inifile.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\runlogic.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\vusercfg.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\MultiVuser.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\xdr.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\rtc_protocol.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\comm_util.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramlr.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramtbl.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mmdtable.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libmemmap.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mmdbigtable.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramcst.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramunq.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramfnc.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramss.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramdte.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramvar.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\paramrnd.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\runlogicview.ocx
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\HP.LR.VuGen.ScriptHandlerComWrapper.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lrscripthandler.DLL
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\webscripthandler.DLL
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebStepClsShared.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebStepClsDesign.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mshtmtr.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\DynWininet.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\wraplwcrypto.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrXmlScriptHandler.DLL
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ReplayBinaryUtils32.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\WSOCK32.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\websteps_scripthandler.DLL
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\base_scripthandler.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\RICHED32.DLL
+		5.31.23.1231                  C:\Windows\SYSTEM32\RICHED20.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\USP10.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebUIRes.DLL
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\webservice_scripthandler.DLL
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WSDLSDK.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ServiceManagementLight.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\SoapRecordFilter.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebServicesSDK.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\XmlParserInterface.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WsJniUtil.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WSDLParser.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WSDLUtilsU.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WsCommonLogger.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ConfigurationUtil.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\HttpUtils.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\xerces-c_3_2.dll
+		1, 12, 0, 0                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\Xalan-C_1_12.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mic_regex.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\java_search.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\MicXMLDiffTool.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WSDLToolkits.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\icuin69.dll
+		1, 12, 0, 0                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\XalanMessages_1_12.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\soap_scripthandler.DLL
+		4.8.4084.0 built by: NET48REL1C:\Windows\Microsoft.Net\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll
+		1.0.117.0                     C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\SQLite.Interop.dll
+		10.0.19041.2311 (WinBuild.160101.0800)C:\Windows\System32\WINTRUST.dll
+		4.8.4084.0 built by: NET48REL1C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.Wrapper.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ParamUINotification.dll
+		7.2.19041.746 (WinBuild.160101.0800)C:\Windows\SYSTEM32\oleacc.dll
+		1.6.4                         C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lib\win32\x86\git2-e632535.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebObjects4Vugen.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwScriptApi.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ExtInfra.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\faserver.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\trans.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwLogicMgr.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwCs.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwiWebInfra.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwObjMgr.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwSrvNet.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwUtil.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lrun50.dll
+		2023.1.0.103                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\vm.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lr_exp.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\trans_server.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libdatatypes.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\data_types_ifs.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\ipng_utils.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\VnpUtils.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\DataFormatsEngine.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwSnapshotsWriter.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\DomFactory.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwJsw.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwJsForTransport.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\duktape.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\http_auth.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrXml.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\pcre-8.44.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrJson.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\JScriptEngine.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwiHtmlParser.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\brotlienc.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\brotlidec.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\wrapzlib.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwiStreamingParser.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwReport.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwWebSocketEngine.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\boost_filesystem-vc143-mt-x32-1_81.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\jsext.dll
+		3.0.9                         C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libcrypto-3.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\merc_uuid.dll
+		10.0.16299.91 (WinBuild.160101.0800)C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\dbghelp.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\timediff_ext.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\jrequestor_srv.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\dc_requests.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebSnapshotsCommon.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\JSHostedEnvironment.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\VnpReport.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\JsonParser.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\boost_filesystem-vc140-mt-1_60.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\boost_system-vc140-mt-1_60.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\brotlicommon.dll
+		1.2.13                        C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\zlib.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\boost_thread-vc143-mt-x32-1_81.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwReplayMain.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\driver.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mozjs.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\jconv_str.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\InternetProtocolHttpEngine.DLL
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwiAed.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwSAPLogicMgr.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LrwSAPScriptApi.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\cyclic_ds.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libresponse.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mchan.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\launcher.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\two_way_comm.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mlogger.dll
+		10.0.16299.91 (WinBuild.160101.0800)C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\dbgcore.DLL
+		4.16                          C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\nspr4.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\hook_installer.dll
+		10.0.19041.1415 (WinBuild.160101.0800)C:\Windows\System32\imagehlp.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\librdkafkacpp.dll
+		3.0.9                         C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libssl-3.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\cert.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libgd.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\leader_election.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libtpq.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\libpvc.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\key_storage.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\security_protocols.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\security_encryption.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\key_handler.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\mictime.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\librdkafka.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lwc_cryptolib.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\key_repository.dll
+		4.50.000                      C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\bugslayerutil.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Program Files (x86)\Common Files\microsoft shared\ink\tiptsf.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\thumbcache.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\apphelp.dll
+		23.153.0724.0003              C:\Users\arunroshan.r\AppData\Local\Microsoft\OneDrive\23.153.0724.0003\i386\FileSyncShell.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\HP.LR.VuGen.VugenIconOverlayHandler.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\drprov.dll
+		10.0.19041.1826 (WinBuild.160101.0800)C:\Windows\System32\ntlanman.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\davclnt.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\DAVHLPR.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\dlnashext.dll
+		10.0.19041.1708 (WinBuild.160101.0800)C:\Windows\System32\DevDispItemProvider.dll
+		10.0.19041.1620 (WinBuild.160101.0800)C:\Windows\System32\DEVOBJ.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\wpdshext.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\PortableDeviceApi.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\audiodev.dll
+		12.0.19041.2364 (WinBuild.160101.0800)C:\Windows\system32\WMVCore.DLL
+		12.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\WMASF.DLL
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\mfperfhelper.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\Windows.FileExplorer.Common.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\HP.LR.VuGen.LrVugHelper.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\TextContainer.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\System32\coml2.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\edputil.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\RtbSupport.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\webbrwsr.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\BRWSR_EX.dll
+		10.0.19041.2311 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ondemandconnroutehelper.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\eventsinker.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\threadsafefileoperator.dll
+		23.1.0.251                    C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\TulipAppInfo.dll
+		23.1.0.251                    C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\SSFMgrWrapper.dll
+		23.1.0.251                    C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\RealFileSystem.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\system32\Ninput.dll
+		11.00.19041.1 (WinBuild.160101.0800)C:\Windows\System32\jscript9.dll
+		4.8.4084.0 built by: NET48REL1C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Net.Http\7f4462bbf2a4b27db12fd861df7c3458\System.Net.Http.ni.dll
+		                              C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9b1458a7b0ebbf15\igdinfo32.dll
+		31.0.101.4255                 C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9b1458a7b0ebbf15\igc32.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\Windows.ApplicationModel.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\twinapi.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\vugen_record_api.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\insp_gen.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\inspdll.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\pefile.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\api_inspector.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\System32\COMDLG32.dll
+		2023.1.0.159                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\trpfnc32.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\script_language_helper.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\api_scrinfo.dll
+		2023.0.0.37                   C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\HTTPSnapshotsWrapper.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\Api_Filter_Helper.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\unknown_only_helper.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\type_info_pool.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\CodeGenerationAPI.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\LRSDKUtilities.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\InternalSDKUtils.dll
+		                              C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebEventTrafficMap.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\VuGenCallback.dll
+		10.0.19041.1806 (WinBuild.160101.0800)C:\Windows\System32\cryptui.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lrc_basic_filters.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\api_event_parser.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\traffic_filter.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\api_sock_filter.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebDataFormatsCodeGen.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebSocketFilter.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\VnpLog.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebHTMLCodeGen.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebRecorder.dll
+		2.9.0                         C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\cpprest140_2_9.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebCorrelation.dll
+		10.0.19041.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\HTTPAPI.dll
+		14.32.31332.0                 C:\Windows\SYSTEM32\CONCRT140.dll
+		10.0.19041.546 (WinBuild.160101.0800)C:\Windows\SYSTEM32\DPAPI.DLL
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebConvertFromFormattedFilter.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebConvertFromFormattedPostFilter.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebExtractServerNameFilter.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lrc_com_filters.dll
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\WebRemoveLongBodyFilter.DLL
+		2023.1.0.406                  C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\lrc_code_gen_filter.dll

@@ -1,0 +1,13 @@
+[t41]
+FileName1=t41.htm
+URL1=https://adactinhotelapp.com/SearchHotel.php
+Total=2
+RequestHeaderFile=t41_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t41_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_41.xml
+FileName2=t41_search_hotel.html
+URL2=https://adactinhotelapp.com/js/search_hotel.js
+[ProtocolInfo]
+ProtocolId=QTWeb

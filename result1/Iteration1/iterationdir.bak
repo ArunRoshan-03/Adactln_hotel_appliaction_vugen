@@ -1,0 +1,14 @@
+[TC_02_login]
+SnapshotIndex=I1_TC_02_login
+[Action]
+SnapshotIndex=I1_Action
+[TC_01_launch]
+SnapshotIndex=I1_TC_01_launch
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[TC_04_select_hotel]
+SnapshotIndex=I1_TC_04_select_hotel
+[TC_03_search_hotel]
+SnapshotIndex=I1_TC_03_search_hotel
+[TC_05_book_hotel]
+SnapshotIndex=I1_TC_05_book_hotel

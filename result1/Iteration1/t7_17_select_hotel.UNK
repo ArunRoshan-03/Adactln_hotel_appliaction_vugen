@@ -1,0 +1,83 @@
+// JavaScript Document
+function Nothingonly(e) {
+	var unicode=e.charCode? e.charCode : e.keyCode
+	if (unicode!=9){
+		return false //disable key press
+	}
+}
+function disable_ctrlV() {
+	window.clipboardData.clearData();
+}
+function check_uncheck1() {
+	document.getElementById("radiobutton_1").checked=true;
+	document.getElementById("radiobutton_2").checked=false;
+	document.getElementById("radiobutton_3").checked=false;
+	document.getElementById("radiobutton_4").checked=false;
+}
+function check_uncheck2() {
+	document.getElementById("radiobutton_2").checked=true;
+	document.getElementById("radiobutton_1").checked=false;
+	document.getElementById("radiobutton_3").checked=false;
+	document.getElementById("radiobutton_4").checked=false;
+}
+function check_uncheck3() {
+	document.getElementById("radiobutton_3").checked=true;
+	document.getElementById("radiobutton_1").checked=false;
+	document.getElementById("radiobutton_2").checked=false;
+	document.getElementById("radiobutton_4").checked=false;
+}
+function check_uncheck4() {
+	document.getElementById("radiobutton_4").checked=true;
+	document.getElementById("radiobutton_1").checked=false;
+	document.getElementById("radiobutton_2").checked=false;
+	document.getElementById("radiobutton_3").checked=false;
+}
+function select_validate() {
+	error_var=0;
+	if(document.select_form.total_radiobutton.value==1){
+		if(document.getElementById("radiobutton_0").checked==false) {
+			document.getElementById("radiobutton_span").innerHTML = "Please Select a Hotel";
+			error_var=+1;
+		} else {
+			document.select_form.hotel_name.value=document.select_form.hotel_name_0.value;
+			document.select_form.price_night.value=document.select_form.price_night_0.value;
+			document.select_form.total_price.value=document.select_form.total_price_0.value;
+		}
+	} else if(document.select_form.total_radiobutton.value==4){
+		if(document.getElementById("radiobutton_1").checked==false && document.getElementById("radiobutton_2").checked==false && document.getElementById("radiobutton_3").checked==false && document.getElementById("radiobutton_4").checked==false) {
+			document.getElementById("radiobutton_span").innerHTML = "Please Select a Hotel";
+			error_var=+1;
+		} else if(document.getElementById("radiobutton_1").checked==true) {
+			document.select_form.hotel_name.value=document.select_form.hotel_name_1.value;
+			document.select_form.price_night.value=document.select_form.price_night_1.value;
+			document.select_form.total_price.value=document.select_form.total_price_1.value;
+			document.getElementById("radiobutton_span").innerHTML = "";
+			//alert("radio 1"+document.select_form.hotel_name.value+" "+document.select_form.price_night.value+" "+document.select_form.total_price.value);
+		} else if(document.getElementById("radiobutton_2").checked==true) {
+			document.select_form.hotel_name.value=document.select_form.hotel_name_2.value;
+			document.select_form.price_night.value=document.select_form.price_night_2.value;
+			document.select_form.total_price.value=document.select_form.total_price_2.value;
+			document.getElementById("radiobutton_span").innerHTML = "";
+			//alert("radio 2"+document.select_form.hotel_name.value+" "+document.select_form.price_night.value+" "+document.select_form.total_price.value);
+		} else if(document.getElementById("radiobutton_3").checked==true) {
+			document.select_form.hotel_name.value=document.select_form.hotel_name_3.value;
+			document.select_form.price_night.value=document.select_form.price_night_3.value;
+			document.select_form.total_price.value=document.select_form.total_price_3.value;
+			document.getElementById("radiobutton_span").innerHTML = "";
+			//alert("radio 3"+document.select_form.hotel_name.value+" "+document.select_form.price_night.value+" "+document.select_form.total_price.value);
+		} else if(document.getElementById("radiobutton_4").checked==true) {
+			document.select_form.hotel_name.value=document.select_form.hotel_name_4.value;
+			document.select_form.price_night.value=document.select_form.price_night_4.value;
+			document.select_form.total_price.value=document.select_form.total_price_4.value;
+			document.getElementById("radiobutton_span").innerHTML = "";
+			//alert("radio 4"+document.select_form.hotel_name.value+" "+document.select_form.price_night.value+" "+document.select_form.total_price.value);
+		}
+		
+	}
+	// Error Check of All Validations
+	if (error_var>0) {
+		return false;
+	} else {
+		return true;
+	}
+}

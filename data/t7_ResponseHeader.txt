@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=600
+Content-Type: application/ocsp-response
+Date: Thu, 24 Aug 2023 07:22:14 GMT
+Server: ECAcc (sgb/C72F)
+Content-Length: 5
+
